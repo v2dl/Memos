@@ -12,7 +12,7 @@
 **主要亮点:**  
 20万tokens上下文；推理、数学、代码能力、创作能力、工具调用能力、内生计算能力提升
 
-数学评测集 (GSM8K, MATH)
+数学评测集 ([GSM8K](https://huggingface.co/datasets/gsm8k), [MATH](https://github.com/hendrycks/math))
 
 **从模型到应用典型流程:**
 1. 根据业务场景和算力进行模型选型    
