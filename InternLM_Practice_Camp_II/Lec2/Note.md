@@ -30,3 +30,8 @@ Notes:
 根据下载速度推测带宽约为500Mbps, InterLM2-Chat-1.8B约占显存5G  
 Prompt:  
 请创作一则短小精悍，具有获奖潜质的300字故事
+
+
+`pip install huggingface_hub`  
+`from huggingface_hub import hf_hub_download`
+`hf_hub_download(repo_id="internlm/internlm2-chat-7b", filename="config.json")`
