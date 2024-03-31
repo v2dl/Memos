@@ -24,14 +24,18 @@ Chat-嬛嬛 (基于《甄嬛传》剧本)
 https://github.com/InternLM/Tutorial/blob/camp2/helloworld/hello_world.md
 
 Notes:  
+**InterLM2-Chat-1.8B**  
 创建约20 mins之后显示可以进入开发机  
 `studio-conda -o internlm-base -t demo` (约12 mins)  
 `conda activate demo`  
 根据下载速度推测带宽约为500Mbps, InterLM2-Chat-1.8B约占显存5G  
 Prompt:  
-请创作一则短小精悍，具有获奖潜质的300字故事
+请创作一则短小精悍，具有获奖潜质的300字故事  
+使用`exit`离开
 
-
+**Bajie-Chat-1.8B**  
+`ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p [port_num]`
+bUQomoXzlbOXmCTS
 `pip install huggingface_hub`  
 `from huggingface_hub import hf_hub_download`
 `hf_hub_download(repo_id="internlm/internlm2-chat-7b", filename="config.json")`
