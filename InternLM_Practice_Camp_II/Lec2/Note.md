@@ -34,11 +34,11 @@ Prompt:
 使用`exit`离开
 
 **Bajie-Chat-1.8B**  
-`ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p [port_num]`
-bUQomoXzlbOXmCTS
+`ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p [port_num]`  
 `pip install huggingface_hub`  
-`from huggingface_hub import hf_hub_download`
+`from huggingface_hub import hf_hub_download`  
 `hf_hub_download(repo_id="internlm/internlm2-chat-7b", filename="config.json")`
 
-**使用 Lagent 运行 InternLM2-Chat-7B 模型为内核的智能体**  
-需要`pip install transformers, sentencepiece`
+**使用Lagent运行InternLM2-Chat-7B模型为内核的智能体**  
+
+**使用浦语·灵笔2进行图文创作及视觉问答**

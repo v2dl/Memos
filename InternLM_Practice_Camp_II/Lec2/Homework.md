@@ -7,5 +7,7 @@
 **使用`huggingface_hub`包，下载InternLM2-Chat-7B 的`config.json`文件**
 ![Task 2](Task-2.png "Task2")
 
-**使用Lagent工具调用数据分析Demo部署**
+**完成Lagent工具调用数据分析Demo部署**
 ![Task 3](Task-3.png "Task-3")
+
+**完成浦语·灵笔2的图文创作及视觉问答部署**
