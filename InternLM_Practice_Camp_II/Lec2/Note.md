@@ -39,3 +39,6 @@ bUQomoXzlbOXmCTS
 `pip install huggingface_hub`  
 `from huggingface_hub import hf_hub_download`
 `hf_hub_download(repo_id="internlm/internlm2-chat-7b", filename="config.json")`
+
+**使用 Lagent 运行 InternLM2-Chat-7B 模型为内核的智能体**  
+需要`pip install transformers, sentencepiece`
