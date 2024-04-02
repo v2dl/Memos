@@ -40,5 +40,10 @@ Prompt:
 `hf_hub_download(repo_id="internlm/internlm2-chat-7b", filename="config.json")`
 
 **使用Lagent运行InternLM2-Chat-7B模型为内核的智能体**  
+显存占用约16G
 
-**使用浦语·灵笔2进行图文创作及视觉问答**
+**使用浦语·灵笔2进行图文创作及视觉问答** 
+`pip install cmake lit` 
+显存占用约35G  
+点击左下角terminal图标后在TERMINALS中关闭终端以避免显存不足  
+
