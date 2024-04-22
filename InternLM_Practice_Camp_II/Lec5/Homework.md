@@ -30,6 +30,3 @@
 
 #### 使用LMDeploy运行视觉多模态大模型llava gradio demo
 ![Task 2-4](./Images/Task-2-4.png "Task 2-4")
-
-
-#### 将LMDeploy Web Demo部署到OpenXLab
