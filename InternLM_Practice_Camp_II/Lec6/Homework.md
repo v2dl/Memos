@@ -11,3 +11,4 @@
 ![Task 3](./Images/Task-3.png "Task 3")
 
 #### 使用 AgentLego 实现自定义工具并完成调用，并在作业中上传截图
+![Task 4](./Images/Task-4.png "Task 4")
